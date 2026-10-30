@@ -5,9 +5,9 @@ from aiogram.filters import Command
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiohttp import web
 
-API_TOKEN = 'YOUR_BOT_TOKEN'
-MERCHANT_WALLET = "EQD...YOUR_WALLET_ADDRESS_HERE..."
-TONAPI_KEY = "YOUR_TONAPI_KEY" # Получить на tonapi.io
+API_TOKEN = '9109475795:AAFaF5yBRXZuHfUCk5PoCkR8txSr9gpEVTo'
+MERCHANT_WALLET = "UQA9BpDfk6vG_LECkxV7zW28yc3jRTDkIxs5DKm7I82QyaHh"
+TONAPI_KEY = "AHJ4KUZGMG5KEIYAAAAGTTPCF6H7S742BGPBQE3TRZ4EG2JN7VPRVBRALGOZMDC3WGJXO2Y" # Получить на tonapi.io
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
