@@ -15,7 +15,7 @@ dp = Dispatcher()
 @dp.message(Command("start"))
 async def start_cmd(message: types.Message):
     kb = InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="🚀 Запустить Gamebooster", web_app=types.WebAppInfo(url="https://your-domain.com/index.html"))]
+        [InlineKeyboardButton(text="🚀 Запустить Gamebooster", web_app=types.WebAppInfo(url="https://aftt1fixalone.vercel.app/index.html"))]
     ])
     await message.answer("Добро пожаловать! Откройте приложение для игры и пополнения:", reply_markup=kb)
 
